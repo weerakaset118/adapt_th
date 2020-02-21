@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <!-- This file has been downloaded from Bootsnipp.com. Enjoy! -->
+    <title>ADAP-T</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+    <style type="text/css"></style>
+    <script type="text/javascript" src="assets/js/jquery-3.2.1.min.js"></script>
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.9.2/themes/base/jquery-ui.css" />
+    <script src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
+    <script src="https://cdn.rawgit.com/openlayers/openlayers.github.io/master/en/v5.3.0/build/ol.js"></script>
+    <script src="assets/js/ol3-layerswither/layerswitcher.js"></script>
+    <script src="assets/js/ol3-layerswither/legend.js"></script>
+    <script src="assets/d3/d3.js"></script>
+    <link rel="stylesheet" href="https://cdn.rawgit.com/openlayers/openlayers.github.io/master/en/v5.3.0/css/ol.css">
+    <script type="text/javascript" src="assets/js/legend.js"></script>
+    <link rel="stylesheet" href="assets/js/ol3-layerswither/layerswitcher.css" type="text/css">
+    <link rel="stylesheet" href="assets/js/ol3-layerswither/legend.css" type="text/css">
+    <script src="assets/highcharts/code/highcharts.js"></script>
+    <script src="assets/highcharts/code/js/modules/series-label.js"></script>
+    <script src="assets/highcharts/code/js/modules/exporting.js"></script>
+    <script type="text/javascript" src="assets/js/map_render.js"></script>
+    <script type="text/javascript" src="assets/js/graph.js"></script>
+  <script>
+  $(function() {
+    $( "#tabs" ).tabs();
+  });
+  </script>
+</head>
+<body>
+    <ul class="box flexbox">
+	<li class="flexbox item">
+	    	<div id="mapid" class="map"></div>
+	</li>
+	<li class="flexbox item">
+		<div id="tabs">
+			<ul>
+				<li><a href="#tabs-1">General Infomation</a></li>
+				<li><a href="#tabs-2">Industrial structure</a></li>
+				<li><a href="#tabs-3">Agriculture</a></li>
+				<li><a href="#tabs-4">Population</a></li>
+				<li><a href="#tabs-5">Household economy</a></li>
+				<li><a href="#tabs-6">Impacts of natural disaster</a></li>
+			</ul>
+	
+			<div id="tabs-1">
+				<div id="abstract">
+                                	<div id="prov_name"></div>
+                                	<div id="grp"></div>
+                                	<div id="grp_growth"></div>
+                                	<div id="population"></div>
+                                	<div id="disaster"></div>
+				</div>
+			</div>
+			<div id="tabs-2">
+		    		<div id="container" class="graph2"></div>
+		    		<div id=gdp><div id="gdpcapita" class="graph2"></div></div>
+			</div>
+			<div id="tabs-3">
+		    		<div id="agri" class="graph1"></div>
+			</div>
+			<div id="tabs-4">
+		    		<div id="tambon_pop" class="graph1"></div>
+			</div>
+			<div id="tabs-5">
+		    		<div id="poverty" class="graph1"></div>
+		    		<div id="debt" class="graph2"></div>
+			</div>
+			<div id="tabs-6">
+		    		<div id="landslide" class="graph3"></div>
+		    		<div id="floodfreq" class="graph3"></div>
+		    		<div id="beachloss" class="graph2"></div>
+			</div>
+	        </div>
+	</li>
+    </ul>
+</body>
+</html>
