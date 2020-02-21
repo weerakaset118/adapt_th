@@ -1,0 +1,53 @@
+.flexbox{
+	display: flex;
+}
+
+.ui-tabs .ui-tabs-nav li a {font-size:7pt !important;}
+
+.map {
+  height: 50vw;
+  width: 40vw;
+}
+
+.sub_button{
+  text-align:right;
+  font-size:10px;
+}
+
+.graph1{
+ height: 15vw;
+ width: 50vw;
+}
+
+.graph2{
+ height: 20vw;
+ width: 50vw;
+}
+
+.graph3{
+ float:left;
+ height: 20vw;
+ width: 20vw;
+}
+.admin-select-control{
+    position: absolute;
+    top: 5em;
+    left: 0.5em;
+    text-align: left;
+}
+
+.legend-control{
+    position: absolute;
+    bottom: 3em;
+    right: 0.5em;
+    text-align: left;
+}
+
+#legend{
+    background-color: white;
+}
+#legend_title{
+    margin: -30px;
+    padding: 0px;
+    background-color: white;
+}
